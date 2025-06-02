@@ -76,7 +76,7 @@ if st.button("Ask"):
         with st.spinner("💬 Consulting LexTrek, please wait..."):
             try:
                 res = requests.post(
-                    "https://295e-2a02-aa12-3340-c700-a8c9-d0c3-7b87-88d2.ngrok-free.app/query",
+                    "https://e099-34-124-227-13.ngrok-free.app/query",
                     json={"question": question},
                     timeout=60
                 )
